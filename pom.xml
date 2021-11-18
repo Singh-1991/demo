@@ -49,6 +49,18 @@
     </dependency>
   </dependencies>
   
-  
+  <distributionManagement>
+
+	    <repository>
+	      <id>Nexus</id>
+	      <name>Hello-World-Release</name>
+	      <url>http://13.232.204.50:8081/repository/Hello-World-Release/</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>Nexus</id>
+	      <name>Hello-World-Snapshot</name>
+	      <url>http://13.232.204.50:8081/repository/Hello-World-Snapshot/</url>
+	    </snapshotRepository>
+  </distributionManagement> 
   
 </project>
